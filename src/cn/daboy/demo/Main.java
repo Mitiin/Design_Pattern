@@ -5,9 +5,9 @@ package cn.daboy.demo;
  */
 public class Main {
     public static void main(String[] args) {
-        Driver zhangSan = new Driver();
-        Benz benz = new Benz();
-        BMW bmw = new BMW();
+        IDriver zhangSan = new Driver();
+        ICar benz = new Benz();
+        ICar bmw = new BMW();
 
         zhangSan.driver(benz);
     }

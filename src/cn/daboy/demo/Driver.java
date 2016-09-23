@@ -1,7 +1,7 @@
 package cn.daboy.demo;
 
-public class Driver {
-    public void driver(Benz benz) {
-        benz.run();
+public class Driver implements IDriver {
+    public void driver(ICar car) {
+        car.run();
     }
 }

@@ -3,7 +3,7 @@ package cn.daboy.demo;
 /**
  * Created by Administrator on 2016/9/23.
  */
-public class BMW {
+public class BMW implements ICar{
     public void run() {
         System.out.println("宝马汽车开始运行...");
     }
