@@ -8,12 +8,8 @@ import java.util.List;
  */
 public class Main {
     public static void main(String[] args) {
-        List<Girl> listGirl = new ArrayList<Girl>();
-        for (int i = 0;i<20; i++) {
-            listGirl.add(new Girl());
-        }
-        Teacher teacher = new Teacher();
-        teacher.commond(new GroupLeader(listGirl));
+        InstallSoftware invoker = new InstallSoftware();
+        invoker.installWizard(new Wizard());
     }
 }
 
