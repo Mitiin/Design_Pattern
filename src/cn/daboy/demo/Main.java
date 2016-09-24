@@ -5,11 +5,8 @@ package cn.daboy.demo;
  */
 public class Main {
     public static void main(String[] args) {
-        IDriver zhangSan = new Driver();
-        ICar benz = new Benz();
-        ICar bmw = new BMW();
-
-        zhangSan.driver(benz);
+        Teacher teacher = new Teacher();
+        teacher.commond(new GroupLeader());
     }
 }
 
