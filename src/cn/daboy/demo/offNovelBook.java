@@ -3,12 +3,10 @@ package cn.daboy.demo;
 /**
  * Created by Administrator on 2016/9/26.
  */
-public class offNovelBook extends NovelBook {
-
-    public offNovelBook(String _name, int _price, String _author) {
+public class OffNovelBook extends NovelBook {
+    public OffNovelBook(String _name, int _price, String _author) {
         super(_name, _price, _author);
     }
-
     @Override
     public int getPrice () {
         int selfPrice = super.getPrice();
@@ -20,5 +18,4 @@ public class offNovelBook extends NovelBook {
         }
         return offPrice;
     }
-
 }

@@ -17,10 +17,10 @@ public class BookStore {
     }
     */
     static {
-        bookList.add(new offNovelBook("天龙八部",3200,"金庸"));
-        bookList.add(new offNovelBook("巴黎圣母院",5600,"雨果"));
-        bookList.add(new offNovelBook("悲惨世界",3500,"雨果"));
-        bookList.add(new offNovelBook("金瓶梅",4300,"兰陵笑笑生"));
+        bookList.add(new OffNovelBook("天龙八部",3200,"金庸"));
+        bookList.add(new OffNovelBook("巴黎圣母院",5600,"雨果"));
+        bookList.add(new OffNovelBook("悲惨世界",3500,"雨果"));
+        bookList.add(new OffNovelBook("金瓶梅",4300,"兰陵笑笑生"));
     }
 
     public static void main(String[] args) {
