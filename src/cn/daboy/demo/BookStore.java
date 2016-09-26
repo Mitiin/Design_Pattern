@@ -8,20 +8,16 @@ import java.util.ArrayList;
  */
 public class BookStore {
     private final static ArrayList<IBook> bookList= new ArrayList<IBook>();
-    /*
+
     static {
         bookList.add(new NovelBook("天龙八部",3200,"金庸"));
         bookList.add(new NovelBook("巴黎圣母院",5600,"雨果"));
         bookList.add(new NovelBook("悲惨世界",3500,"雨果"));
         bookList.add(new NovelBook("金瓶梅",4300,"兰陵笑笑生"));
+        bookList.add(new ComputerBook("Think in Java",4300,"Bruce Eckel","编程语言"));
     }
-    */
-    static {
-        bookList.add(new OffNovelBook("天龙八部",3200,"金庸"));
-        bookList.add(new OffNovelBook("巴黎圣母院",5600,"雨果"));
-        bookList.add(new OffNovelBook("悲惨世界",3500,"雨果"));
-        bookList.add(new OffNovelBook("金瓶梅",4300,"兰陵笑笑生"));
-    }
+
+
 
     public static void main(String[] args) {
         NumberFormat formatter = NumberFormat.getCurrencyInstance();
