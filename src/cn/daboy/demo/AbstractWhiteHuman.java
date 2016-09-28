@@ -3,7 +3,7 @@ package cn.daboy.demo;
 /**
  * Created by Administrator on 2016/9/27.
  */
-public class WhiteHuman implements Human {
+public abstract class AbstractWhiteHuman implements Human {
     public void getColor() {
         System.out.println("白色人种的皮肤颜色是白色的!");
     }

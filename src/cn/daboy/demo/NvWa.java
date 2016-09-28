@@ -5,21 +5,24 @@ package cn.daboy.demo;
  */
 public class NvWa {
     public static void main(String[] args) {
-        AbstractHumanFactory YinYangLu = new HumanFactory();
+        HumanFactory maleHumanFactory = new MaleFactory();
+        HumanFactory femaleHumanFactory = new FemaleFactory();
 
-        System.out.println("--造出的第一批人是白色人种--");
-        Human whiteHuman = YinYangLu.createHuman(WhiteHuman.class);
-        whiteHuman.getColor();
-        whiteHuman.talk();
 
-        System.out.println("--造出的第一批人是黑色人种--");
-        Human blackHuman = YinYangLu.createHuman(BlackHuman.class);
-        blackHuman.getColor();
-        blackHuman.talk();
+        Human maleYellowHuman = maleHumanFactory.createYellowHuman();
+        Human femaleYellowHuman = femaleHumanFactory.createYellowHuman();
 
-        System.out.println("--造出的第一批人是黄色人种--");
-        Human YellowHuman = YinYangLu.createHuman(YellowHuman.class);
-        YellowHuman.getColor();
-        YellowHuman.talk();
+
+        System.out.println("--生产一个黄色女性--");
+        femaleYellowHuman.getColor();
+        femaleYellowHuman.talk();
+        femaleYellowHuman.getSex();
+
+        System.out.println("--生产一个黄色男性--");
+        maleYellowHuman.getColor();
+        maleYellowHuman.talk();
+        maleYellowHuman.getSex();
+
+
     }
 }
