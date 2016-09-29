@@ -1,22 +1,21 @@
 package cn.daboy.demo;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 /**
- * Created by Administrator on 2016/9/28.
+ * Created by Administrator on 2016/9/29.
  */
 public class Client {
-    public static void main(String[] args) throws IOException {
-        System.out.println("------H1型号悍马------");
-        System.out.println("------H1型号的悍马是否需要喇叭响声?0-不需要 1-需要");
-        String type = (new BufferedReader(new InputStreamReader(System.in))).readLine();
-        HummerH1Model h1 = new HummerH1Model();
-        if (type.equals("0")) {
-            h1.setAlarm(false);
+    public static void main(String[] args) {
+        Director director = new Director();
+        for (int i = 0; i < 1000000; i++) {
+            director.getABenzModel().run();
         }
-
-        h1.run();
+        for (int i = 0; i < 1000000;i++) {
+            director.getBBenzModel().run();
+        }
+        for (int i = 0; i < 1000000;i++) {
+            director.getCBMWModel().run();
+        }
     }
 }
