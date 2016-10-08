@@ -5,22 +5,46 @@ package cn.daboy.demo;
  */
 public class GamePlayer implements IGamePlayer {
     private String name = "";
-    public GamePlayer(IGamePlayer _gamePlayer,String _name) throws Exception{
-        if (_gamePlayer == null) {
-            throw new Exception("不能创建真实角色!");
-        } else {
-            this.name = _name;
-        }
+    private IGamePlayer proxy = null;
+
+    public GamePlayer(String _name) {
+        this.name = _name;
     }
+
     public void login(String user, String password) {
-        System.out.println("登录名为"+user+"的用户"+this.name+"登陆成功!");
+        if (this.isProxy()) {
+            System.out.println("登陆名为"+user+"的用户"+this.name+"登陆成功!");
+        } else {
+            System.out.println("请使用指定的代理访问");
+        }
     }
 
     public void killBoss() {
-        System.out.println(this.name+"在打怪!");
+        if (this.isProxy()) {
+            System.out.println(this.name+"在打怪!");
+        } else {
+            System.out.println("请使用指定的代理访问");
+        }
     }
 
     public void upgrade() {
-        System.out.println(this.name+"又升了一级!");
+        if (this.isProxy()) {
+            System.out.println(this.name+"又升了一级!");
+        } else {
+            System.out.println("请使用指定的代理访问");
+        }
+    }
+
+    public IGamePlayer getProxy() {
+        this.proxy = new GamePlayerProxy(this);
+        return this.proxy;
+    }
+
+    private boolean isProxy() {
+        if (this.proxy == null) {
+            return false;
+        } else  {
+            return true;
+        }
     }
 }

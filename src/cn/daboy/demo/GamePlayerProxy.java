@@ -5,13 +5,11 @@ package cn.daboy.demo;
  */
 public class GamePlayerProxy implements IGamePlayer {
     private IGamePlayer gamePlayer = null;
-    public GamePlayerProxy(String name) {
-        try {
-            gamePlayer = new GamePlayer(this,name);
-        } catch (Exception e) {
-            //异常处理
-        }
+
+    public GamePlayerProxy(IGamePlayer _gamePlayer) {
+        this.gamePlayer = _gamePlayer;
     }
+
     public void login(String user, String password) {
         this.gamePlayer.login(user,password);
     }
@@ -22,5 +20,9 @@ public class GamePlayerProxy implements IGamePlayer {
 
     public void upgrade() {
         this.gamePlayer.upgrade();
+    }
+
+    public IGamePlayer getProxy() {
+        return this;
     }
 }
