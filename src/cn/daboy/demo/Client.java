@@ -8,32 +8,17 @@ import java.util.Random;
  * Created by Administrator on 2016/9/29.
  */
 public class Client {
-    private static int MAX_COUNT = 6;
     public static void main(String[] args) {
-        int i = 0;
-        Mail mail = new Mail(new AdvTemplate());
-        mail.setTail("XX银行版权所有");
-        while(i < MAX_COUNT) {
-            Mail cloneMail = mail.clone();
-            cloneMail.setAppellation(getRandString(5)+"先生(女士)");
-            cloneMail.setReceiver(getRandString(5)+"@"+getRandString(8)+".com");
-            sendMail(cloneMail);
-            i++;
-        }
-    }
+        System.out.println("------采购人员采购电脑------");
+        Purchase purchase = new Purchase();
+        purchase.buyIBMcomputer(100);
 
-    public static void sendMail(Mail mail) {
-        System.out.println("标题:"+mail.getSubject()+"\t收件人:"+mail.getReceiver()+"\t...发送成功!");
-    }
+        System.out.println("\n------销售人员销售电脑------");
+        Sale sale = new Sale();
+        sale.sellIBMComputer(1);
 
-    public static String getRandString(int maxLength) {
-        String source = "abcdefghijklmnopqrstuvwxyz";
-        StringBuffer sb = new StringBuffer();
-        Random rand = new Random();
-        for (int i = 0;i<maxLength; i++) {
-            sb.append(source.charAt(rand.nextInt(source.length())));
-        }
-        return sb.toString();
+        System.out.println("\n------库房管理人员清库处理------");
+        Stock stock = new Stock();
+        stock.clearStock();
     }
-
 }
