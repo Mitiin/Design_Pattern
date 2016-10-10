@@ -3,19 +3,14 @@ package cn.daboy.demo;
 /**
  * Created by Administrator on 2016/10/9.
  */
-public class Purchase {
+public class Purchase extends AbstractColleague{
+    public Purchase(AbstractMediator _mediator) {
+        super(_mediator);//Purchase对象
+        System.out.println("生成Purchase对象:");
+    }
+
     public void buyIBMcomputer(int number) {
-        Stock stock = new Stock();
-        Sale sale = new Sale();
-        int saleStatus = sale.getSaleStatus();
-        if (saleStatus > 80) {
-            System.out.println("采购IBM电脑:"+number+"台");
-            stock.increase(number);
-        } else {
-            int buyNumber = number/2;
-            System.out.println("采购IBM电脑"+buyNumber+"台");
-            stock.increase(buyNumber);
-        }
+        super.mediator.execute("purchase.buy",number);
     }
 
     public void refuseBuyIBM() {

@@ -5,15 +5,14 @@ import java.util.Random;
 /**
  * Created by Administrator on 2016/10/9.
  */
-public class Sale {
+public class Sale extends AbstractColleague{
+    public Sale(AbstractMediator _mediator) {
+        super(_mediator);
+    }
+
     public void sellIBMComputer(int number) {
-        Stock stock = new Stock();
-        Purchase purchase = new Purchase();
-        if (stock.getStockNumber() < number) {
-            purchase.buyIBMcomputer(number);
-        }
         System.out.println("销售IBM电脑"+number+"台");
-        stock.decrease(number);
+        super.mediator.execute("sale.sell",number);
     }
 
     public int getSaleStatus() {
@@ -24,8 +23,7 @@ public class Sale {
     }
 
     public void offSale() {
-        Stock stock = new Stock();
-        System.out.println("折价销售IBM电脑"+stock.getStockNumber()+"台");
+        super.mediator.execute("sale.offsell");
     }
 
 }
