@@ -10,19 +10,12 @@ import java.util.Random;
  */
 public class Client {
     public static void main(String[] args) {
-        Random rand = new Random();
-        ArrayList<IWomen> arrayList = new ArrayList<IWomen>();
-        for (int i = 0;i < 5;i++) {
-            arrayList.add(new Women(rand.nextInt(3)+1,"我要出去逛街"));
-        }
-        Handler father = new Father();
-        Handler husband = new Husband();
-        Handler son = new Son();
-        father.setNextHandler(husband);
-        husband.setNextHandler(son);
+        SchoolReport sr = new SugarFouthGradeSchoolReport();
 
-        for (IWomen women:arrayList) {
-            father.HandleMessage(women);
-        }
+        sr = new FouthGradeSchoolReport();
+        sr = new HighScoreDecorator(sr);
+        sr = new SortDecorator(sr);
+        sr.report();
+        sr.sign("老三");
     }
 }
