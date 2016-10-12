@@ -10,12 +10,21 @@ import java.util.Random;
  */
 public class Client {
     public static void main(String[] args) {
-        SchoolReport sr = new SugarFouthGradeSchoolReport();
+        Context context;
+        System.out.println("---刚刚到吴国的时候拆第一个---");
+        context = new Context(new BackDoor());
+        context.operate();
+        System.out.println("\n\n\n\n\n\n\n\n");
 
-        sr = new FouthGradeSchoolReport();
-        sr = new HighScoreDecorator(sr);
-        sr = new SortDecorator(sr);
-        sr.report();
-        sr.sign("老三");
+        System.out.println("---刘备乐不思蜀了,拆第二个了---");
+        context = new Context(new GivenGreenLight());
+        context.operate();
+        System.out.println("\n\n\n\n\n\n\n\n");
+
+        System.out.println("---孙权的小兵追来了,咋办?拆第三个---");
+        context = new Context(new BlockEnemy());
+        context.operate();
+        System.out.println("\n\n\n\n\n\n\n\n");
+
     }
 }
