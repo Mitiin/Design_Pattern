@@ -3,7 +3,7 @@ package cn.daboy.demo;
 /**
  * Created by Administrator on 2016/10/13.
  */
-public class LiSi implements ILiSi {
+public class LiSi implements Observer {
     public void update(String str) {
         System.out.println("李斯:观察到韩非子活动,开始向老板汇报了...");
         this.reportToQinShiHuang(str);
