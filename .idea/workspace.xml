@@ -25,71 +25,62 @@
       <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <state relative-caret-position="190">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HanFeiZi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/HanFeiZi.java">
+      <file leaf-file-name="Caretaker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Caretaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="228">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
-                <element signature="e#220#230#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Observer.java">
+      <file leaf-file-name="Memento.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Memento.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="114">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+              <folding>
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IHanFeiZi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/IHanFeiZi.java">
+      <file leaf-file-name="Boy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Boy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LiSi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/LiSi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WangSi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/WangSi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Observable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Observable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="154">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+              <folding>
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,14 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/daboy/demo/IHandler.java" />
-        <option value="$PROJECT_DIR$/src/cn/daboy/demo/Handler.java" />
-        <option value="$PROJECT_DIR$/src/cn/daboy/demo/Women.java" />
-        <option value="$PROJECT_DIR$/src/cn/daboy/demo/Father.java" />
-        <option value="$PROJECT_DIR$/src/cn/daboy/demo/Husband.java" />
-        <option value="$PROJECT_DIR$/src/cn/daboy/demo/Son.java" />
-        <option value="$PROJECT_DIR$/src/cn/daboy/demo/FouthGradeSchoolReport.java" />
-        <option value="$PROJECT_DIR$/src/cn/daboy/demo/SchoolReport.java" />
         <option value="$PROJECT_DIR$/src/cn/daboy/demo/SugarFouthGradeSchoolReport.java" />
         <option value="$PROJECT_DIR$/src/cn/daboy/demo/Decorator.java" />
         <option value="$PROJECT_DIR$/src/cn/daboy/demo/HighScoreDecorator.java" />
@@ -160,9 +143,17 @@
         <option value="$PROJECT_DIR$/src/cn/daboy/demo/Spy.java" />
         <option value="$PROJECT_DIR$/src/cn/daboy/demo/Observable.java" />
         <option value="$PROJECT_DIR$/src/cn/daboy/demo/Observer.java" />
-        <option value="$PROJECT_DIR$/src/cn/daboy/demo/HanFeiZi.java" />
         <option value="$PROJECT_DIR$/src/cn/daboy/demo/LiSi.java" />
         <option value="$PROJECT_DIR$/src/cn/daboy/demo/WangSi.java" />
+        <option value="$PROJECT_DIR$/src/cn/daboy/demo/HanFeiZi.java" />
+        <option value="$PROJECT_DIR$/src/cn/daboy/demo/ILetterProcess.java" />
+        <option value="$PROJECT_DIR$/src/cn/daboy/demo/LetterProcessImpl.java" />
+        <option value="$PROJECT_DIR$/src/cn/daboy/demo/Police.java" />
+        <option value="$PROJECT_DIR$/src/cn/daboy/demo/ModenPostOffice.java" />
+        <option value="$PROJECT_DIR$/src/cn/daboy/demo/Boy.java" />
+        <option value="$PROJECT_DIR$/src/cn/daboy/demo/Menento.java" />
+        <option value="$PROJECT_DIR$/src/cn/daboy/demo/Menemto.java" />
+        <option value="$PROJECT_DIR$/src/cn/daboy/demo/Caretaker.java" />
         <option value="$PROJECT_DIR$/src/cn/daboy/demo/Client.java" />
       </list>
     </option>
@@ -211,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -286,6 +276,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -774,7 +765,10 @@
       <workItem from="1476234371635" duration="10238000" />
       <workItem from="1476254401233" duration="9056000" />
       <workItem from="1476318882566" duration="266000" />
-      <workItem from="1476319914226" duration="18029000" />
+      <workItem from="1476319914226" duration="19415000" />
+      <workItem from="1476406610806" duration="599000" />
+      <workItem from="1476410123428" duration="1586000" />
+      <workItem from="1476414509116" duration="3830000" />
     </task>
     <servers />
   </component>
@@ -796,21 +790,21 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153004000" />
+    <option name="totallyTimeSpent" value="160405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31862745" sideWeight="0.48184568" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31862745" sideWeight="0.47881997" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4117647" sideWeight="0.5779123" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34477124" sideWeight="0.58472013" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4117647" sideWeight="0.42208776" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34477124" sideWeight="0.41527987" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -842,14 +836,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/cn/daboy/demo/HanFeiZi.java</url>
-          <line>8</line>
-          <properties field="observerList" class="cn.daboy.demo.HanFeiZi" />
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="57" />
     </breakpoint-manager>
     <watches-manager />
@@ -859,13 +845,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Father.java" />
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Husband.java" />
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/IWomen.java" />
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Women.java" />
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Handler.java" />
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/SchoolReport.java" />
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/FouthGradeSchoolReport.java" />
     <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/HighScoreDecorator.java" />
     <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/SortDecorator.java" />
     <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/SugarFouthGradeSchoolReport.java" />
@@ -891,7 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,176 +877,112 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="382" column="29" selection-start-line="382" selection-start-column="29" selection-end-line="382" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Project.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Project.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/ProjectItertor.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/IProjectItertor.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/IProject.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/IRoot.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Root.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/ICorp.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/ILeaf.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/IBranch.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Branch.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Leaf.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Corp.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Spy.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/ILiSi.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/LiSi.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/WangSi.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Observer.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/IHanFeiZi.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Observable.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/HanFeiZi.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/ILetterProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="171">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/ProjectItertor.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/LetterProcessImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="228">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/IProjectItertor.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Police.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        <state relative-caret-position="152">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/IProject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/IRoot.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/ModenPostOffice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="39" />
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Root.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Caretaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/ICorp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/ILeaf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/IBranch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Branch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Leaf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Corp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Spy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/ILiSi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/IHanFeiZi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/HanFeiZi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="228">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
-            <element signature="e#220#230#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Observer.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Memento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="114">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/LiSi.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Boy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/WangSi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="154">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/daboy/demo/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="190">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
           <folding />
         </state>
       </provider>

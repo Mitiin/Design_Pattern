@@ -6,16 +6,22 @@ package cn.daboy.demo;
  */
 public class Client {
     public static void main(String[] args) {
-        Observer liSi = new LiSi();
-        Observer wangSi = new WangSi();
-        HanFeiZi hanFeiZi = new HanFeiZi();
+        Boy boy = new Boy();
+        Caretaker caretaker = new Caretaker();
 
-        hanFeiZi.addObserver(liSi);
-        hanFeiZi.addObserver(wangSi);
+        boy.setState("心情很棒!");
 
-        hanFeiZi.haveBreakfast();
-        hanFeiZi.haveFun();
+        System.out.println("======男孩现在的状态======");
+        System.out.println(boy.getState());
+
+        caretaker.setMemento(boy.createMemento());
+
+        boy.changeState();
+        System.out.println("\n======男孩追女孩子后的状态======");
+        System.out.println(boy.getState());
+
+        boy.restoreMemento(caretaker.getMemento());
+        System.out.println("\n======男孩恢复后的状态======");
+        System.out.println(boy.getState());
     }
-
-
 }
