@@ -1,6 +1,8 @@
 package cn.daboy.demo;
 
 
+import com.sun.org.apache.bcel.internal.generic.ISHL;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,11 +11,19 @@ import java.util.List;
  */
 public class Client {
     public static void main(String[] args) {
+        IShowVisitor showVisitor = new ShowVisitor();
+        ITotalVisitor totalVisitor = new TotalVisitor();
+
+
         Visitor visitor = new Visitor();
         for (Employee emp:mockEmployee()) {
-            emp.accept(visitor);
+            emp.accept(showVisitor);
+            emp.accept(totalVisitor);
+
         }
-        System.out.println("本公司的月工资总额是:"+visitor.getTotalSalary());
+        showVisitor.report();
+        totalVisitor.totalSalary();
+        //System.out.println("本公司的月工资总额是:"+visitor.getTotalSalary());
     }
 
 
