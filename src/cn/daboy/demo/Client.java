@@ -1,8 +1,5 @@
 package cn.daboy.demo;
 
-
-import com.sun.org.apache.bcel.internal.generic.ISHL;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,14 +8,13 @@ import java.util.List;
  */
 public class Client {
     public static void main(String[] args) {
-        AbsActor actor = new OldActor();
-        Role role = new KungFuRole();
-
-        role.accept(actor);
-        //actor.act(role);
-        //actor.act( new KungFuRole());
-
-
+        Context context = new Context();
+        context.setLiftState(Context.closingState);
+        context.open();
+        context.close();
+        context.run();
+        context.stop();
+        context.open();
     }
 
 }
